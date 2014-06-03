@@ -19,6 +19,8 @@
 		CE358B15193E5A0F004CE4C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE358AFD193E5A0F004CE4C7 /* UIKit.framework */; };
 		CE358B1D193E5A0F004CE4C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE358B1B193E5A0F004CE4C7 /* InfoPlist.strings */; };
 		CE358B1F193E5A0F004CE4C7 /* SuchObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE358B1E193E5A0F004CE4C7 /* SuchObjCTests.m */; };
+		CE358B2A193E5A1F004CE4C7 /* SOCData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE358B29193E5A1F004CE4C7 /* SOCData.m */; };
+		CE358B2D193E5A35004CE4C7 /* SOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE358B2C193E5A35004CE4C7 /* SOCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		CE358B1A193E5A0F004CE4C7 /* SuchObjCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuchObjCTests-Info.plist"; sourceTree = "<group>"; };
 		CE358B1C193E5A0F004CE4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE358B1E193E5A0F004CE4C7 /* SuchObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuchObjCTests.m; sourceTree = "<group>"; };
+		CE358B28193E5A1F004CE4C7 /* SOCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCData.h; sourceTree = "<group>"; };
+		CE358B29193E5A1F004CE4C7 /* SOCData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCData.m; sourceTree = "<group>"; };
+		CE358B2B193E5A35004CE4C7 /* SOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCViewController.h; sourceTree = "<group>"; };
+		CE358B2C193E5A35004CE4C7 /* SOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		CE358AED193E5A0F004CE4C7 = {
 			isa = PBXGroup;
 			children = (
+				CE358B28193E5A1F004CE4C7 /* SOCData.h */,
+				CE358B29193E5A1F004CE4C7 /* SOCData.m */,
+				CE358B2B193E5A35004CE4C7 /* SOCViewController.h */,
+				CE358B2C193E5A35004CE4C7 /* SOCViewController.m */,
 				CE358AFF193E5A0F004CE4C7 /* SuchObjC */,
 				CE358B18193E5A0F004CE4C7 /* SuchObjCTests */,
 				CE358AF8193E5A0F004CE4C7 /* Frameworks */,
@@ -240,7 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE358B2A193E5A1F004CE4C7 /* SOCData.m in Sources */,
 				CE358B0A193E5A0F004CE4C7 /* SOCAppDelegate.m in Sources */,
+				CE358B2D193E5A35004CE4C7 /* SOCViewController.m in Sources */,
 				CE358B06193E5A0F004CE4C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
